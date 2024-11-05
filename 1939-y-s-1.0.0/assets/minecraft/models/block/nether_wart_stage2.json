@@ -1,0 +1,37 @@
+{
+	"credit": "By MR_SET_",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "block/nether_wart_stage2",
+		"particle": "block/nether_wart_stage2"
+	},
+	"elements": [
+		{
+			"from": [8, -3.71086, -0.57641],
+			"to": [8, 25.08914, 16.57641],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5.72226, -7.28082, -5.72226]},
+			"faces": {
+				"east": {"uv": [5.25, 2, 11.25, 13.25], "texture": "#1"},
+				"west": {"uv": [11.25, 2, 5.25, 13.25], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-0.57641, -3.71086, 8],
+			"to": [16.57641, 25.08914, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-5.89378, -7.28082, -5.72226]},
+			"faces": {
+				"north": {"uv": [5.25, 2, 11.25, 13.25], "texture": "#1"},
+				"south": {"uv": [11.25, 2, 5.25, 13.25], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"translation": [-0.25, 47.75, 18.25],
+			"scale": [4, 4, 4]
+		}
+	}
+}
